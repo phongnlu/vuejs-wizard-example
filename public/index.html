@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Jumbotron Template for Bootstrap</title>
+
+  <style>
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      border: 5px solid #f3f3f3;
+      -webkit-animation: spin 1s linear infinite;
+      animation: spin 1s linear infinite;
+      border-top: 5px solid #555;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    #main-container {
+      display: none;
+    }
+  </style>
+  <body>
+    <noscript>
+      <strong>We're sorry but vuejs-wizard-example doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    
+ 
+    <div id="loader"></div>
+    
+    <div id="main-container"></div>
+
+    <!-- built files will be auto injected -->
+  </body>
+</html>
